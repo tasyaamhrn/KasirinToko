@@ -439,6 +439,7 @@ section {
   color: #444444;
   margin: 15px 0 0 0;
   font-size: 18px;
+  text-align: justify;
 }
 
 .hero .btn-get-started {
@@ -1580,7 +1581,7 @@ section {
   background: #fafbff;
   padding: 30px;
   width: 216px;
-  height: 202px;
+  height: 201.25px;
 }
 
 .contact .info-box i {
@@ -1685,6 +1686,18 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #5969f3;
+}
+@media (max-width: 768px){
+  .contact .info-box{
+  
+    color: #444444;
+    background: #fafbff;
+    padding: 30px;
+    width: 351px;
+    height: 201.25px;
+    
+
+  }
 }
 
 @-webkit-keyframes animate-loading {
