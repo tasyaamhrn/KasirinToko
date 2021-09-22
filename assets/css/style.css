@@ -144,7 +144,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: #6776f4;
+  background: #4CAF50;
   color: #fff;
 }
 
@@ -375,11 +375,11 @@ section {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #012970;
+  color: #1E6E22;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #4154f1;
+  color: #4CAF50;
 }
 
 .navbar-mobile .getstarted {
@@ -411,7 +411,7 @@ section {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: #4CAF50;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -430,7 +430,7 @@ section {
 
 .hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   color: #4CAF50;
 }
@@ -497,6 +497,7 @@ section {
   .hero .hero-img img {
     width: 80%;
   }
+ 
 }
 
 @media (max-width: 768px) {
@@ -505,12 +506,16 @@ section {
   }
   .hero h1 {
     font-size: 32px;
+    /* color:#111; */
   }
   .hero h2 {
     font-size: 24px;
+    text-indent: 1px;
+    
   }
   .hero .hero-img img {
     width: 100%;
+    /* margin-top: -60px; */
   }
 }
 
@@ -541,6 +546,7 @@ section {
 .about p {
   margin: 15px 0 30px 0;
   line-height: 24px;
+  text-align: justify;
 }
 
 .about .btn-read-more {
